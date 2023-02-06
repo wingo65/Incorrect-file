@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <meta name ="author" content="N ELKHAOULI">
+    <meta name="description" content="Week 5 Intro to Tables and Forums">
+
+
+    <title>W501 | Tables and Forums</title>
+</head>
+<body>
+
+    <h1>Basic Forum Demo</h1>
+
+    <h2> Forum WITHOUT a Table [b000000000]</h2>
+
+    <!--labels are used to match up with the input elements to be read/processed more easily in JS-->
+    <!--
+        For attribute (input element) connects the label attribute value 
+        THESE MUST MATCH
+    -->
+    <forum>
+
+        <!--firstname-->
+        <label for="firstName">First Name:</label>
+        <input type="text" name="firstName" id="firstName">
+
+        <br>
+        <!--lastname-->
+        <label for="lastName">Last Name:</label>
+        <input type="text" name="lastName" id="lastName">
+
+        <br>
+        <!--email address-->
+        <label for="email">Email:</label>
+        <input type="text" name="email" id="email">
+
+
+        <br>
+        <br>
+        <!--since there is more than 1 input elemnet, the form NEEDS a submit button 
+        in orider to generate the full query string-->
+        <input type="submit" value="S U B M I T ! :)">
+
+
+
+    </form>
+    <h2>Form w/Table [yaaaaay]</h2>
+    <!--neater alignment possibilites-->
+
+    <!--form comes FIRST-->
+    <form method="GET" action="_relative path to an HTML_">
+        <table>
+
+            <!--<thead> can be used for column headers-->
+
+            <!--<body> is required inside of a <table>-->
+            <tbody>
+
+                <!--add data to the table row by row-->
+                <tr><!--table ROW; should include one <td> fir every possible column
+                    (leave the <td></td> blank when no info for the row/column)-->
+
+                    <!--<td> table data: one individual data cell; one td per column-->
+                        <td><!--fist data cell in row (left)-->
+                            <label for="firstname">First Name:</label>
+
+                        </td>
+
+                        <td><!--INPUT-->
+                            <input type="text" name="firstname" id="firstname">
+                        </td>
+
+
+                </tr>
+
+                <tr>
+                    <td><!--LABEL-->
+                        <label for="lastname">Last Name:</label>
+                    </td>
+
+                    <td><!--INPUT-->
+                        <input type="text" name="lastname" id="lastname">
+                    </td>
+
+
+                </tr>
+
+                <tr>
+                    <td><!--LABEL-->
+                        <label for="eMail">Email:</label>
+                    </td>
+
+                    <td><!--INPUT-->
+                        <input type="text" name="eMail" id="eMail" required>
+                    </td>
+
+                </tr>
+
+                <tr>
+                    <td><!--LABEL-->
+
+                    </td>
+
+                    <td><!--INPUT-->
+                        <input type="submit" value="submit">
+                    </td>
+
+
+
+
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+
+
+
+
+    </form>
+    
+</body>
+</html>
