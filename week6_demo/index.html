@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="author" content="N Elkhaouli">
+    <meta name="description" content="W6 demo | Intro to JS">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--we should have  some type of HTML in the file to start-->
+    <h1>W6 Demo | Introduction to JavaScript</h1>
+
+    <!--t tags usually go after all of the intended HTML (body of bottom)-->
+    <!--IN DOCUMENT: means the code lives directly in the file, within appropriate tags
+    <scripts> for JS or <style> for CSS-->
+    <script>
+        //everything inside of the script tags must be written in JS
+
+        //creating a variable - requires DECLARATION in order to create/use names
+        var num1 = 10
+        var num2 = 7
+
+        var sum = num1 + num2
+
+        //console.log() is used for DEVELOPMENT TESTING != user display
+        console.log(sum)
+        console.log("Hello World!")//displays simple string
+
+        //displaying both stored data and string message
+        console.log("Hello World! the sum is" + sum + "Cool, right?")//long way
+        //literal strings super powerful string types
+        console.log(`Hello World! The sum is: ${sum}. \n\n\nCool right?`)//fun way
+
+        //escapse sequence for new line \n or \t fir tab still works in strings
+
+        //alert() creates a pop up with data display for user to see
+        //alert() --> print() in python for output 
+        //user must click the button in the pop-up before code will continue
+        //alert(`The sum is ${sum}!`)
+        console.log("Hi")
+        //alert(sum)
+        //alert(`The sum is: $${sum.toFixed(2)}`)//displaying rounded decimal
+        console.log("HOWDY")
+
+        //prompt() creates a pop up with data display and also a text field input - allows the user to enter data to be used later in the <script>
+        //prompt() --> input() in Python for input
+
+        //to use the value provided by the user we must assign to a var
+        var nameF = prompt(`Enter your name: `)
+        var nameL = prompt(`Thanks ${nameF}! Please enter your last name: `)
+        console.log(nameL)
+
+        //if browser treats prompt() return as a string, cast Number() to use in math
+        var num = Number(prompt("Enter a number: "))
+        //similar in Python to: num = int(input("Enter a number: "))
+
+        var square = num * num
+
+        console.log(square.toFixed(2))
+
+
+            
+
+    </script>
+
+    
+
+
+    
+</body>
+</html>
