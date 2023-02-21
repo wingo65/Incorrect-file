@@ -20,16 +20,21 @@
         var tg = 0
         var gross = 0
 
-        var sum1 = gross * taxrate
-        var sum2 = gross - tt
+        var tg = gross * taxrate
+        console.log(tg.toFixed(2))
+
+        var netpay = gross - tt
+        console.log(netpay.toFixed(2))
+
         var gross = hrswk * hrRate
+        console.log(gross.toFixed(2))
 
         var hrswk = prompt(`Enter your hours worked: `)
         var hrRate = prompt(`Enter hourly rate: `)
 
         console.log(`Gross pay: ${gross} `)
-        console.log(`Uncle Sam's share: ${sum2} `)
-        console.log(`Netpay: ${sum1} `)
+        console.log(`Uncle Sam's share: ${netpay} `)
+        console.log(`Netpay: ${tg} `)
 
 
 
