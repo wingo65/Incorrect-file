@@ -4,7 +4,14 @@
 <meta charset="utf-8">
 <title>Week 2 Files</title>
 <style type="text/css">
-	.border{border:1px solid black;}
+	div {
+		border:1px solid black;
+		
+		margin-bottom:5px;
+
+	}
+	
+	
 </style>
 </head>
 
@@ -22,6 +29,35 @@
 		{first:"Buzz", last:"Lightyear", credit:"Toy Story" },
 		{first:"Marion", last:"Cobretti", credit:"Cobra" }
 	]
+
+	console.log(people[0]) 
+        console.log(people[0].first) 
+
+        var body = document.querySelector(`body`)
+        console.log(body)
+        console.dir(body)
+
+        for(let i = 0; i < people.length; i++)
+        {
+            var tempDiv = document.createElement(`div`)
+
+            tempDiv.setAttribute(`id`, i) 
+
+            tempDiv.setAttribute(`class`, `black`)
+
+            for(key in people[i]) 
+            {
+                var p = document.createElement(`p`)
+
+                var text = document.createTextNode(people[i][key])
+
+                p.appendChild(text)
+                tempDiv.appendChild(p)
+            }
+            
+            body.appendChild(tempDiv)
+
+        }    
 	
 </script>
 
