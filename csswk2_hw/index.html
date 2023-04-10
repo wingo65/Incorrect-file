@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h1>Header</h1>
+   <div id="nav">
+    <a href="#">bio</a> 
+    <a href="#">eduation</a> 
+    <a href="#">hobbies</a> 
+   </div>
+   <div id="main">
+        <div id="bio" class="content">
+            <h2>Bio</h2>
+            <p>My name is Nicholas Elkhaouli. I am 20 years old and currently enrolled at New England Tech. My goal in college is to achieve my bachelor's degree and hopefully get a job at Google, Amazon or whoever decides to hire me. I lived in Rhode Island my entire life, I first lived in Pawtucket where my family and I lived there for about 5 years and then moved to Cranston where is where I've been ever since.  </p>
+        </div>
+        <div id="ed" class="content">
+            <h2>Education</h2>
+            <p>Garden City Elementary School </p>
+            <p>Western Hills Middle School</p>
+            <p>Cranston West High School</p> 
+            <p><a href="https://chsw.cpsed.net/">High School Site</a></p>
+        </div>
+        <div id="hobbies" class="content">
+            <h2>Hobbies</h2>
+            <p>Cars</p>
+            <p>Video Games</p>
+            <p>Hanging out with friends</p>
+            <img src="images/Bmw.jpg"alt="Bmw"style="width:500px">
+        </div>
+        <div>
+            <hr>
+            <div id ="footer" class="border">
+
+                <p>&copy; 2023 Nicholas Elkhaouli | SE1137.03 </p>
+                
+    
+            </div><!--/ #footer-->
+        </div>
+   </div>
+    <script>
+        var a = document.querySelectorAll(`#nav a`);
+        
+        for(let i=0; i<a.length; i++)
+        {
+            a[i].addEventListener(`click`, function(e){
+                e.preventDefault();
+
+                var div = document.querySelectorAll(`.content`);
+
+                for(let i=0; i<div.length; i++)
+                {
+                    div[i].classList.add(`hide`);
+                }
+
+               div[i].classList.remove(`hide`);
+                
+            })
+        }
+
+      
+    </script>
+</body>
+</html>

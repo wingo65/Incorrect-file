@@ -1,0 +1,29 @@
+@charset "UTF-8";
+main{
+    background-color:gray;
+    background-repeat:no-repeat;
+    background-size:50%;
+}
+
+a:link a:visited, a:active{
+    color:black;
+}
+a:hover{
+    color:peachpuff;
+}
+div{
+    background:#33333333;
+    border:5px solid red;
+    border-radius:50px 50px 100px;
+    box-shadow:0 0 10px black;
+}
+.hide{
+    display:none;
+}
+/*
+comment
+*/
+h2{
+    font-size:12px;
+    color:blue
+}
