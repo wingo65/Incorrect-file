@@ -6,7 +6,11 @@ main{
     background-size:50%;
 }
 
-a:link a:visited, a:active{
+a:link { 
+    color: darkblue
+}
+
+a:visited, a:active {
     color:black;
 }
 a:hover{
