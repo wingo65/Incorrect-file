@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url(https://fonts.google.com/specimen/DynaPuff);
 main{
     background-color:gray;
     background-repeat:no-repeat;
@@ -9,12 +10,12 @@ a:link a:visited, a:active{
     color:black;
 }
 a:hover{
-    color:peachpuff;
+    color:gray;
 }
 div{
     background:#33333333;
-    border:5px solid red;
-    border-radius:50px 50px 100px;
+    border:5px solid black;
+    border-radius:0px 0px 20px;
     box-shadow:0 0 10px black;
 }
 .hide{
@@ -24,6 +25,18 @@ div{
 comment
 */
 h2{
-    font-size:12px;
+    font-style:italic;
+    font-size:30px;
     color:blue
+}
+
+h1{
+   font-family: fantasy;
+}
+
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
