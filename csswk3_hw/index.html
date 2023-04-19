@@ -8,65 +8,48 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <h1>Bio Page</h1>
-   <div id="nav">
-    <a href="#">bio</a> 
-    <a href="#">eduation</a> 
-    <a href="#">hobbies</a> 
-   </div>
+    <div class="grid-container">
+        <div id="head" class="bio1">
+        <h1>Bio Page</h1>
+        <header id="header"></header>
+        </div>
 
-    <main>
-            <div id="bio" class="content">
-                <h2>Bio</h2>
-                <img src="images/thumbnail_IMG_4572.jpg" alt="Me" style="width:500px" class="center">
-                <p>My name is Nicholas Elkhaouli. I am 20 years old and currently enrolled at New England Tech. My goal in college is to achieve my bachelor's degree and hopefully get a job at Google, Amazon or whoever decides to hire me. I lived in Rhode Island my entire life, I first lived in Pawtucket where my family and I lived there for about 5 years and then moved to Cranston where is where I've been ever since.  </p>
-            </div>
-            <div id="ed" class="content">
-                <h2>Education</h2>
-                <p>Garden City Elementary School </p>
-                <p>Western Hills Middle School</p>
-                <p>Cranston West High School</p> 
-                <p><a href="https://chsw.cpsed.net/">High School Site</a></p>
-            </div>
-            <div id="hobbies" class="content">
-                <h2>Hobbies</h2>
-                <p>Cars</p>
-                <p>Video Games</p>
-                <p>Hanging out with friends</p>
-                <img src="images/3qY7gdba.akR44SZMs-(edit).jpg"alt="Bmw"style="width:500px">
-            </div>
-            <div>
-                <hr>
-                <div id ="footer" class="border">
+        <div id="nav" class="hide">
+            <a href="#">bio</a> 
+            <a href="#">eduation</a> 
+            <a href="#">hobbies</a> 
+        </div>
+            <main>
+                    <div id="bio" class="bio2">
+                        <h2>Bio</h2>
+                        <img src="images/thumbnail_IMG_4572.jpg" alt="Me" style="width:500px">
+                        <p>My name is Nicholas Elkhaouli. I am 20 years old and currently enrolled at New England Tech. My goal in college is to achieve my bachelor's degree and hopefully get a job at Google, Amazon or whoever decides to hire me. I lived in Rhode Island my entire life, I first lived in Pawtucket where my family and I lived there for about 5 years and then moved to Cranston where is where I've been ever since.  </p>
+                    </div>
+                    <div id="ed" class="bio3">
+                        <h2>Education</h2>
+                        <p>Garden City Elementary School </p>
+                        <p>Western Hills Middle School</p>
+                        <p>Cranston West High School</p> 
+                        <p><a href="https://chsw.cpsed.net/">High School Site</a></p>
+                    </div>
+                    <div id="hobbies" class="bio4">
+                        <h2>Hobbies</h2>
+                        <p>Cars</p>
+                        <p>Video Games</p>
+                        <p>Hanging out with friends</p>
+                        <img src="images/3qY7gdba.akR44SZMs-(edit).jpg"alt="Bmw"style="width:500px">
+                    </div>
+                    <div>
+                        <hr>
+                        <div id ="footer" class="border">
 
-                    <p>&copy; 2023 Nicholas Elkhaouli | SE1137.03 </p>
-                    
+                            <p>&copy; 2023 Nicholas Elkhaouli | SE1137.03 </p>
+                            
 
-                </div><!--/ #footer-->
-            </div>
-    </main>
+                        </div><!--/ #footer-->
+                    </div>
+            </main>
+         </div>       
         
-    <script>
-        var a = document.querySelectorAll(`#nav a`);
-        
-        for(let i=0; i<a.length; i++)
-        {
-            a[i].addEventListener(`click`, function(e){
-                e.preventDefault();
-
-                var div = document.querySelectorAll(`.content`);
-
-                for(let i=0; i<div.length; i++)
-                {
-                    div[i].classList.add(`hide`);
-                }
-
-               div[i].classList.remove(`hide`);
-                
-            })
-        }
-
-      
-    </script>
 </body>
 </html>

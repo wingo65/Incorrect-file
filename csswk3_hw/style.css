@@ -4,52 +4,61 @@ html, body{
     height:100%;
     margin:0px;
 }
-
-main{
-    display:grid;
-    grid-template-areas:"h h h h h h"
-                        "n n n n n n"
-                        "s s s s s s"
-                        "f f f f f f";
-    background-color: yellowgreen;
-    color:brown;
-    border:100px solid black;
-    box-sizing: border-box;
-    min-height: 100%;
-
+h2 {
+    color: lightskyblue;
 }
-header{
-    background-color: aqua;
-    grid-area: h;
-}
-nav{
-    background-color: magenta;
-    grid-area: n;
-}
-footer{
-    background-color: red;
-    grid-area: f;
-}
-section{
-    background-color: yellow;
-    grid-area: s;
-}
-nav a{
-    display:inline-block;
-    padding:20px;
-    border:1px solid black;
-    background-color:bisque;
-    border-radius:20px  
+.hide{
+    display:none;
 }
 
-nav a:link, nav a:visited{
-   background-color: bisque;
-   transition: all 1s;
+.grid-containter{
+    display: grid;
+    grid-template-areas:
+    'head head head head head head'
+    'bio bio bio schooling schooling schooling'
+    'bio bio bio schooling schooling schooling'
+    'bio bio bio hobbies hobbies hobbies'
+    'bio bio bio hobbies hobbies hobbies'
+    'footer footer footer footer footer footer'
 }
-nav a:hover, nav a:active{
-    background-color: rgb(243, 12, 12);
-    transition: all 1s;
+.bio1 {
+    grid-area: head;
+    text-align: center;
+    background-color: burlywood;
+}
 
+.bio2 {
+    grid-area: bio;
+    text-align: center;
+    height: 800px;
+}
+.bio3 {
+    grid-area: schooling;
+    text-align: center;
+    height: 500px;
+    border: 5px solid burlywood;
+}
+.bio4 {
+    grid-area: hobbies;
+    text-align: center;
+    background-image:url(images/whiteheadlights.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: 5px solid burlywood;
+}
+.border {
+    grid-area: footer;
+    text-align: center;
+    background-color: rgb(83, 77, 77);
+    height: 100px
+}
+body {
+    background: gray;
+}
+p,li {
+    color: rgb(192, 160, 119);
+    text-align: center;
+    margin-inline: 300px;
 }
 
 
