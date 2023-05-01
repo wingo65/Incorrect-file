@@ -28,6 +28,8 @@ header{
     justify-content: space-between;
     height: 100px;
     width: 1820px;
+    left: 0px;
+    top: 0px;
 }
 
 #youtube{
