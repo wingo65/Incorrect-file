@@ -1,0 +1,45 @@
+html, body{
+    margin:0;
+    height:100vh;
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+table{
+    width:80%;
+    border-collapse: collapse;
+}
+ td{
+    border-bottom:1px solid black;
+}
+@media (max-width:1000px) 
+{
+    h1{
+        font-size:32px;
+    }
+    body{
+         background-color:red;
+         transition: all 1s;
+
+    }
+    main{
+        width:100%;
+    }
+    
+}
+
+@media (max-width:500px)
+{
+    body{
+         background-color:orange;
+         transition: all 1s;
+    }
+    main{
+        width:100%;
+    }
+    div{
+        display:none;
+    }
+}
