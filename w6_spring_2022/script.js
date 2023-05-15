@@ -6,6 +6,7 @@ function openClose(e)
 {
     var nav = document.querySelector(`nav`);
     nav.classList.toggle(`hidden`);
+    e.target.style.backgroundColor=`#373737`;
 }
 
 var tabs = document.querySelectorAll(`#tabs a`);
@@ -22,5 +23,6 @@ for(let i=0; i<tabs.length; i++)
         document.querySelectorAll(`#breadcrumbs a`)[3].innerHTML = `Tabs ${i+1}`
     });
 }
+
 
 

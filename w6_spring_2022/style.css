@@ -22,21 +22,32 @@ main{
 header{
     background: #505050;
     height:24px; 
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+    font-style: 'Roboto';
+    padding-left: 44px;
+    
 }
-    #Files{
-        width: 19px;
-        height: 14px;
-        left: 45px;
-        top: 4px;
+#links a{
+    width: 1366px;
+    width: 19px;
+    height: 14px;
+    top: 4px;
+    text-decoration: none;
+    color: #E3E3E3;
+    margin-right: 4px;
 
-        font-family: 'Roboto';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 14px;
+}
+#links a :last-child{
+    margin-right: 0px;
+}
+#settings{
+    display: inline-block;
+}
 
-        color: #E3E3E3;
-    }
+
 section{
     height:100%;
     background-color:burlywood;
@@ -46,6 +57,23 @@ section{
 aside{
     width:50px;
     background: #505050;
+    flex-direction: column;
+    display: flex;
+}
+#tray{
+  display: inline-block;
+  margin-top: 32px;
+}
+#tiles{
+    display: inline-block;
+    margin-top: 80px;
+    width: 26px;
+    height: 32px;
+    margin-left: 9px;
+}
+#trash{
+   display: inline-block;
+   margin-top: 718px;
 }
 nav{
 
@@ -112,6 +140,7 @@ footer{
     padding:0;
     transition:width 1s;
 }
+
 
 
 
