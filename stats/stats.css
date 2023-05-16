@@ -23,6 +23,7 @@ table{
     body{
          background-color:blue;
          transition: all 1s;
+         font-size: 1em;
 
     }
     main{
@@ -30,6 +31,7 @@ table{
     }
     thead > :last-child{
         display: none;
+        font-size: 1em;
       }
     
 }
