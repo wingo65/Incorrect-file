@@ -29,6 +29,7 @@ table{
     }
     thead > :last-child{
         display: none;
+        font-size: 1em;
       }
     
 }
