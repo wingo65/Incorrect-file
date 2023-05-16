@@ -59,21 +59,18 @@ aside{
     background: #505050;
     flex-direction: column;
     display: flex;
+    align-items: center;
 }
 #tray{
   display: inline-block;
-  margin-top: 32px;
 }
 #tiles{
     display: inline-block;
-    margin-top: 80px;
-    width: 26px;
-    height: 32px;
-    margin-left: 9px;
+    
 }
 #trash{
    display: inline-block;
-   margin-top: 718px;
+   
 }
 nav{
 
@@ -84,12 +81,44 @@ nav{
     justify-content: flex-end;
     overflow:hidden;
 }
+#Files{
+    width: 26px;
+    height: 14px;
+    margin-left: 70px;
+    margin-top: 33px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+#OtherStuff{
+    width: 59px;
+    height: 14px;
+    margin-left: 70px;
+    margin-top: 181px;
+}
 details{
     margin:5px;
     width:90px;
 }
+#words{
+    display: list-item;
+    list-style-image: url(images/sprites\ 13.png);
+    align-items: center;
+}
+#stuff{
+    display: list-item;
+    list-style-image: url(images/sprites\ 17.png);
+    align-items: center;
+}
 summary{
+    list-style: none;
     width:90px;
+}
+summary:-webkit-details-marker{
+    display: none;
 }
 #content{
     width:100%;
