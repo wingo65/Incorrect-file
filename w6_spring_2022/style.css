@@ -70,6 +70,8 @@ aside{
 }
 #trash{
    display: inline-block;
+   display: flex-end;
+   margin-top: 420px;
    
 }
 nav{
