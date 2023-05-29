@@ -1,0 +1,32 @@
+@import url(https://fonts.google.com/specimen/Oswald);
+@import url(https://fonts.google.com/specimen/Barlow?query=barlow);
+
+
+html, body{
+    margin:0;
+    height:100%;
+    background: #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+body{
+    box-sizing:border-box;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+}
+aside{
+    width: 123px;
+    height: 960px;
+    left: 0px;
+    top: 0px;
+    background: rgba(0, 0, 0, 0.42);
+    position: absolute;
+}
+.mlogo{
+    width: 112px;
+    height: 62px;
+    left: 5px;
+    top: 15px;
+    position: absolute;
+}
+
