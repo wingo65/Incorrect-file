@@ -1,32 +1,163 @@
-@import url(https://fonts.google.com/specimen/Oswald);
-@import url(https://fonts.google.com/specimen/Barlow?query=barlow);
+@import url('https://fonts.google.com/specimen/Oswald');
+@import url('https://fonts.google.com/specimen/Barlow?query=barlow');
 
 
-html, body{
-    margin:0;
-    height:100%;
-    background: #000000;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
+
+
 body{
-    box-sizing:border-box;
+    background: #000;
+    background-color: #E3E3E3;
+    display: flex;
+   
+}
+main{
+    left: 0;
+    top: 0;
+    width:100%;
+    background: #000;
     display:flex;
-    justify-content: center;
-    align-items: stretch;
+    flex-direction: column;
+    height: 100%;
+
+}
+section{
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+header{
+    background: #000;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    font-style: 'Barlow';
+    padding-left: 44px;
+    padding-right: 300px;
+    height: 100px;
+    letter-spacing: 5ch;
+    
+}
+.Links a{
+    text-decoration: none;
+    color: #E3E3E3;
+    margin-right: 4px;
+    width: 120px;
+    height: 65px;
+    font-weight: 600;
+    font-size: 23px;
+    line-height: 28px;
+    letter-spacing: 0.15em;
+    font-style: 'Barlow';
+
 }
 aside{
     width: 123px;
     height: 960px;
-    left: 0px;
-    top: 0px;
-    background: rgba(0, 0, 0, 0.42);
-    position: absolute;
+    display: flex;
+    top: 0;
+    margin-left: 0px;
+    background: rgba(192, 192, 192, 0.47); 
+
 }
-.mlogo{
+h1{
+    width: 891px;
+    height: 314px;
+
+    font-family: 'barlow';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 109.11px;
+    line-height: 131px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    
+  
+}
+h2{
+    width: 533px;
+    height: 65px;
+
+    font-family: 'barlow';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.15em;
+
+    color: #FFFFFF;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+#mlogo{
     width: 112px;
     height: 62px;
-    left: 5px;
-    top: 15px;
-    position: absolute;
+    margin-left: 5px;
+    margin-top: 15px;
+    display: flex;
 }
+.main-info{
+    width: 650px;
+    height: 150px;
+
+    font-family: 'barlow';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 228%;
+    margin-left: 183px;
+    justify-content: center;
+    display: flex;
+
+
+    letter-spacing: 0.05em;
+
+    color: #FDFAFA;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#me{
+    width: 350px;
+    height: 419px;
+    margin-left: 1055px;
+    margin-top: 167px;
+
+}
+footer{
+    background: rgba(192, 192, 192, 0.42);
+    width: 1490px;
+    height: 90px;
+    left: 121px;
+    top: 870px;
+    display: flex;
+    justify-content: flex-end;
+}
+.text{
+    width: 666px;
+    height: 174px;
+    left: 183px;
+    top: 493px;
+    font-family: 'barlow';
+    align-items: flex-start;
+    display: flex;
+}
+
+.fb{
+    width: 77px;
+    height: 77px;
+    margin-left: 308px;
+    margin-top: 753px;
+    display: flex;
+
+}
+.ig{
+    width: 72px;
+    height: 77px;
+    margin-left: 199px;
+    margin-top: 753px;
+    display: flex;
+}
+
+
+
 

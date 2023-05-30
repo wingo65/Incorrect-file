@@ -1,0 +1,52 @@
+table, tr, td{
+    border:#ee0707
+}
+@media screen and(max-width: 1920px) and (min-width:1000px) 
+{
+    img.box1{
+        height: 135px;
+        width: 135px;
+        overflow: hidden;
+    }
+    thead > :last-child{
+        display: none;
+        font-size: 1em;
+      }
+    
+}
+
+@media screen and(min-width:500px) and (max-width:1000px)
+{
+   img.box2{
+    height: auto;
+    width: auto;
+    overflow: hidden;
+   }
+    thead > :first-child{
+        display: none;
+      }
+}
+
+@media screen and(max-width: 500px) and (min-width: 0px)
+{
+    img.box3{
+        height: auto;
+        width: auto;
+        overflow: hidden;
+    }
+
+    table > :first-child{
+        display: none;
+      }
+}
+.topnav {
+    background-color: #ee0707;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+  }
+  .footer{
+    background-color: #ee0707;
+    display: flex;
+    justify-content: space-between;
+  }
