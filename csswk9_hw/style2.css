@@ -1,0 +1,179 @@
+@import url('https://fonts.google.com/specimen/Oswald');
+@import url('https://fonts.google.com/specimen/Barlow?query=barlow');
+
+
+
+body {
+    background: linear-gradient(to bottom, #000000, #333333);
+    margin: 0;
+    color: #ffffff;
+}
+  
+  .container {
+    display: flex;
+    min-height: 100vh;
+    border-bottom: 20px solid #555555;
+}
+  
+  .left-column {
+    flex: 0 0 200px;
+    background-color: #555555;
+    position: relative;
+    z-index: 1;
+    border: 10px solid #555555;
+    border-bottom: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+  
+  .left-column img {
+    width: 120px;
+    margin-bottom: 20px;
+}
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+  
+  .header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    width: 647px;
+    height: 65px;
+    left: 173px;
+    top: 95px;
+    color: #ffffff;
+}
+  
+  .Links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+}
+  
+  .Links a {
+    margin-right: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+  
+  .main-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.main-info h3{
+    width: 739px;
+    height: 314px;
+    left: 183px;
+    top: 189px;
+
+    font-family: 'Barlow';
+    font-style: italic;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 77px;
+    letter-spacing: 0.15em;
+    color: #ffffff;
+}
+  
+  .project-info {
+    display: flex;
+    align-items: center;
+}
+  
+  #project-image {
+    width: 863px;
+    height: 470px;
+    left: 183px;
+    top: 291px;
+}
+  
+  .project-description h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    width: 453px;
+    height: 79px;
+    left: 1114px;
+    top: 267px;
+    font-family: 'Barlow', sans-serif;
+    color: #ffffff;
+}
+  
+  .project-description p {
+    font-size: 18px;
+    margin-bottom: 0;
+    width: 453px;
+    height: 79px;
+    left: 1114px;
+    top: 267px;
+    color: #ffffff;
+    font-family: 'Barlow', sans-serif;
+}
+  
+  #bottom-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-bottom: 100px solid #555555;
+}
+  
+  #bottom-container > div {
+    flex: 1;
+}
+  
+  #repos,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+  #repos {
+    padding-left: 20px;
+}
+  
+  #repos h4,
+  #repos a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+  
+  #contact {
+    padding-right: 20px;
+}
+  
+  #contact h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    width: 173px;
+    height: 19px;
+    left: 233px;
+    top: 860px;
+}
+  
+#contact img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    width: 34px;
+    height: 49px;
+    left: 888px;
+    top: 905px;
+}
