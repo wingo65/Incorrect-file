@@ -1,16 +1,21 @@
 body {
-    background-color: #000000;
+    background: linear-gradient(to bottom, #000000, #333333);
     margin: 0;
     color: #ffffff;
+    width: 1600px;
+    height: 960px;
   }
+
+  .left-column img {
+    width: 120px;
+    margin-bottom: 20px;
+}
   
-  .container {
-    display: flex;
-    min-height: 100vh;
-    border-bottom: 10px solid #555555;
-    border-bottom: 5px solid #555555;
-    padding-bottom: 20px; /* Adjust the padding-bottom value to reduce the gap */
-  }
+.container {
+  display: flex;
+  min-height: 100vh;
+  border-bottom: 20px solid #555555;
+}
   .Links a {
     text-decoration: underline;
   }
@@ -21,6 +26,11 @@ body {
   .container {
     display: flex;
   }
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
   
   .square {
     flex: 1;
@@ -58,4 +68,62 @@ body {
     font-weight: bold;
     text-decoration: none;
   }
+  #bottom-container {
+    display: flex;
+    width: 100%;
+    position: relative;
+    border-bottom: 100px solid #555555;
+}
+  
+  #bottom-container > div {
+    flex: 1;
+}
+  
+  #repos,
+  #contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+  #repos {
+    padding-left: 20px;
+}
+  
+  #repos h4,
+  #repos a {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+  
+  #contact {
+    padding-right: 20px;
+}
+  
+  #contact h4 {
+    font-family: 'Barlow', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #ffffff;
+    width: 173px;
+    height: 19px;
+    left: 233px;
+    top: 860px;
+}
+  
+#contact img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    width: 34px;
+    height: 49px;
+    left: 888px;
+    top: 905px;
+}
   
