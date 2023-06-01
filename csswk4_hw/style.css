@@ -26,7 +26,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    position: absolute;
+    display: flex;
     height: 100px;
     width: 1820px;
     left: 0px;
@@ -37,18 +37,21 @@ header{
     width: 60px;
     height: 60px;
     margin: 21px 0 19px 0;
+    display: flex;
 }
 
 #snapchat{
     width: 60px;
     height: 60px;
     margin: 21px 12px 19px 13px;
+    display: flex;
 }
 
 #twitter{
     height: 69px;
     width: 69px;
     margin: 16px 41px 15px 0;
+    display: flex;
 }
 
 h1{
@@ -68,6 +71,7 @@ h1{
     height: 388px;
     margin-right: 20px;
     width: 1440px;
+    display: flex;
 }
 
 #leftmod{
@@ -94,6 +98,7 @@ h1{
     font-size: 18px;
     line-height: 27px;
     width: 349px;
+    display: flex;
 }
 
 h2{
@@ -109,6 +114,7 @@ h2{
 #poster{
     width: 310px;
     margin: 0 0 2px 2px;
+    display: flex;
 }
 
 #price{
@@ -150,7 +156,7 @@ h2{
 
 #blueray{
     margin: 15px 22px 0 0;
-    position: absolute;
+    display: flex;
     width: 117px;
     height: 148px;
     left: 351px;
@@ -167,6 +173,7 @@ h2{
     border-top: #BB0908 solid 5px;
     width: 700px;
     margin: 23px 20px 25px 0;
+    display: flex;
 }
 
 #pennant{
@@ -243,5 +250,420 @@ footer p{
     font-size: 12px;
     margin: 21px 0 22px 30px;
     width:200px;
+    display: flex;
+}
+@media (max-width: 1920px) and (min-width:1000px){
+   body{
+        width: 100%;
+   } 
+   main{
+        width: 100%;
+   }
+   header{
+        width: 100%;
 }
 
+#youtube{
+    width: 100%;
+  
+}
+
+#snapchat{
+    width: 100%;
+    
+}
+
+#twitter{
+ 
+    width: 100%;
+}
+
+h1{
+    width: 100%;
+    
+}
+
+#banner{
+    width: 100%;
+    
+}
+
+#leftmod{
+    width: 100%;
+    
+}
+
+#left2{
+
+    width: 100%;
+}
+
+#left2 p{
+ 
+    width: 100%;
+}
+h2{
+
+    width: 100%;
+}
+
+#poster{
+
+    width: 100%;
+}
+
+#price{
+
+    width: 100%;
+}
+#purchase{
+
+    width: 100%;
+}
+
+#price p:first-child{
+
+    width: 100%;
+}
+
+#price p:last-child{
+    width: 100%;
+}
+
+#blueray{
+    width: 100%;
+    
+}
+
+  
+
+#rightmod{
+    width: 100%;
+    
+}
+
+#pennant{
+    width: 100%;
+   
+}
+
+#rightmod p{
+    width: 100%;
+    
+}
+
+#farright{
+    width: 100%;
+    
+}
+#sign{
+    width: 100%;
+    
+}
+
+#farrtext p{
+    width: 100%;
+}
+
+.color1{
+    width: 100%;
+    
+}
+
+.color2{
+    width: 100%;
+}
+
+#underwater{
+    width: 100%;
+    
+}
+
+footer{
+    width: 100%;
+    
+}
+
+footer p{
+    width: 100%;
+    
+}
+
+}
+
+@media (max-width: 1000px) and (min-width:500px){
+    body{
+         font-size: 1em;
+    } 
+    main{
+         width: 50%;
+    }
+    header{
+         width: 50%;
+ }
+ 
+ #youtube{
+     width: 50%;
+   
+ }
+ 
+ #snapchat{
+     width: 50%;
+     
+ }
+ 
+ #twitter{
+  
+     width: 50%;
+ }
+ 
+ h1{
+     width: 50%;
+     
+ }
+ 
+ #banner{
+     width: 50%;
+     
+ }
+ 
+ #leftmod{
+     width: 50%;
+     
+ }
+ 
+ #left2{
+ 
+     width: 50%;
+ }
+ 
+ #left2 p{
+  
+     width: 50%;
+ }
+ h2{
+ 
+     width: 50%;
+ }
+ 
+ #poster{
+ 
+     width: 50%;
+ }
+ 
+ #price{
+ 
+     width: 50%;
+ }
+ #purchase{
+ 
+     width: 50%;
+ }
+ 
+ #price p:first-child{
+ 
+     width: 50%;
+ }
+ 
+ #price p:last-child{
+     width: 50%;
+ }
+ 
+ #blueray{
+     width: 50%;
+     
+ }
+ 
+   
+ 
+ #rightmod{
+     width: 50%;
+     
+ }
+ 
+ #pennant{
+     width: 50%;
+    
+ }
+ 
+ #rightmod p{
+     width: 50%;
+     
+ }
+ 
+ #farright{
+     width: 50%;
+     
+ }
+ #sign{
+     width: 50%;
+     
+ }
+ 
+ #farrtext p{
+     width: 50%;
+ }
+ 
+ .color1{
+     width: 50%;
+     
+ }
+ 
+ .color2{
+     width: 50%;
+ }
+ 
+ #underwater{
+     width: 50%;
+     
+ }
+ 
+ footer{
+     width: 50%;
+     
+ }
+ 
+ footer p{
+     width: 50%;
+     
+ }
+ 
+ }
+ @media (max-width: 500px) and (min-width:0px){
+    body{
+         font-size: 1em;
+    } 
+    main{
+         width: 25%;
+    }
+    header{
+         width: 25%;
+ }
+ 
+ #youtube{
+     width: 25%;
+   
+ }
+ 
+ #snapchat{
+     width: 25%;
+     
+ }
+ 
+ #twitter{
+  
+     width: 25%;
+ }
+ 
+ h1{
+     width: 25%;
+     
+ }
+ 
+ #banner{
+     width: 25%;
+     
+ }
+ 
+ #leftmod{
+     width: 25%;
+     
+ }
+ 
+ #left2{
+ 
+     width: 25%;
+ }
+ 
+ #left2 p{
+  
+     width: 25%;
+ }
+ h2{
+ 
+     width: 25%;
+ }
+ 
+ #poster{
+ 
+     width: 25%;
+ }
+ 
+ #price{
+ 
+     width: 25%;
+ }
+ #purchase{
+ 
+     width: 25%;
+ }
+ 
+ #price p:first-child{
+ 
+     width: 25%;
+ }
+ 
+ #price p:last-child{
+     width: 25%;
+ }
+ 
+ #blueray{
+     width: 25%;
+     
+ }
+ 
+   
+ 
+ #rightmod{
+     width: 25%;
+     
+ }
+ 
+ #pennant{
+     width: 25%;
+    
+ }
+ 
+ #rightmod p{
+     width: 25%;
+     
+ }
+ 
+ #farright{
+     width: 25%;
+     
+ }
+ #sign{
+     width: 25%;
+     
+ }
+ 
+ #farrtext p{
+     width: 25%;
+ }
+ 
+ .color1{
+     width: 25%;
+     
+ }
+ 
+ .color2{
+     width: 25%;
+ }
+ 
+ #underwater{
+     width: 25%;
+     
+ }
+ 
+ footer{
+     width: 25%;
+     
+ }
+ 
+ footer p{
+     width: 25%;
+     
+ }
+ 
+ }
