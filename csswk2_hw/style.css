@@ -1,45 +1,54 @@
 @charset "UTF-8";
-@import url(https://fonts.google.com/specimen/DynaPuff);
-main{
-    background-color:gray;
-    background-repeat:no-repeat;
-    background-size:50%;
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff&display=swap');
+
+main {
+    background-color: gray;
+    background-repeat: no-repeat;
+    background-size: 50%;
 }
 
-a:link { 
-    color: darkblue
+body {
+    background-image: url("paper.gif");
+    background-color: #cccccc;
 }
 
-a:visited, a:active {
-    color:black;
-}
-a:hover{
-    color:gray;
-}
-div{
-    background:#33333333;
-    border:5px solid black;
-    border-radius:0px 0px 20px;
-    box-shadow:0 0 10px black;
-}
-.hide{
-    display:none;
-}
-/*
-comment
-*/
-h2{
-    font-style:italic;
-    font-size:30px;
-    color:blue
+a:link {
+    color: darkblue;
 }
 
-h1{
-   font-family: fantasy;
+a:visited,
+a:active {
+    color: black;
 }
 
-.center{
-    display:block;
+a:hover {
+    color: gray;
+}
+
+div {
+    background: #33333333;
+    border: 5px solid black;
+    border-radius: 0px 0px 20px;
+    box-shadow: 0 0 10px black;
+}
+
+.hide {
+    display: none;
+}
+
+h2 {
+    font-family: 'DynaPuff', fantasy ;
+    font-style: italic;
+    font-size: 30px;
+    color: blue;
+}
+
+h1 {
+    font-family: 'DynaPuff', fantasy;
+}
+
+.center {
+    display: block;
     margin-left: auto;
     margin-right: auto;
     width: 50%;
