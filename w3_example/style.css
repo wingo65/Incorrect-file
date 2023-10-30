@@ -1,0 +1,102 @@
+@charset "UTF-8";
+html, body{
+    box-sizing: border-box;
+    height:100%; 
+    margin:0px;
+}
+    
+main {
+    display: grid;
+    grid-template-areas:
+        "a a a a a a"
+        "h h h h h h"
+        "n n n s s s"
+        "n n n s s s"
+        "f f f f f f";
+    grid-template-columns: repeat(6, 1fr); 
+    color: brown;
+    border: 10px solid black;
+    box-sizing: border-box;
+    min-height: 100%;
+    background-color: gray;
+    width: 1000px;
+    position: relative;
+    margin: 0 auto;
+}
+
+name{
+    background-color: red;
+    grid-area: a;
+    color: black;
+    height: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+header{
+    background-color:aqua;
+    grid-area:h;
+    margin-bottom: 20px;
+}
+nav{
+    background-color:magenta;
+    grid-area:n;
+    width: 600px;
+    height: 400px;
+    margin-right: 20px;
+    
+    
+}
+footer{
+    background-color:red;
+    grid-area:f;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    width: 98%; 
+    height: 50px; 
+    padding: 10px; 
+    margin-top: 20px;
+}
+section{
+    background-color:yellow;
+    grid-area:s;
+    height: 400px;
+   
+}
+section li {
+    margin-bottom: 10px; 
+}
+
+/*Make a link a box*/
+nav a{
+    display:inline-block;
+    padding:20px;
+    border:1px solid black;
+    border-radius:20px;
+    
+}
+nav a:link, nav a:visited{
+    background-color:bisque;
+    /*animates the color*/
+    transition: all 1s;
+}
+nav a:hover, nav a:active{
+    background-color:rgb(243, 12, 12);
+    /*animates the color*/
+    transition: all 1s;
+}
+nav p {
+    color: black;
+    font-size: 20px;
+}
+nav img{
+    margin-left: 290px;
+    margin-top: -100px;
+}
+h1{
+    color: black;
+}
+header p{
+    color: black;
+}
