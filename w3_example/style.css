@@ -44,6 +44,7 @@ nav{
     width: 600px;
     height: 400px;
     margin-right: 20px;
+    background-image:url(images/whiteheadlights.jpg);
     
     
 }
@@ -87,7 +88,7 @@ nav a:hover, nav a:active{
     transition: all 1s;
 }
 nav p {
-    color: black;
+    color: rgb(253, 89, 89);
     font-size: 20px;
 }
 nav img{
