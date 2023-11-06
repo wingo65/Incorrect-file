@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Teko);
+@import url(https://fonts.googleapis.com/css?family=Poppins);
+@import url(https://fonts.googleapis.com/css?family=RockSalt);
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html,body{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+main{
+    background: #282828;
+    display: grid;
+    grid-template-areas: "h h h h h h"
+                         "b b b b z z"
+                         "l l r r z z"
+                         "f f f f f f";
+
+    position: relative;
+}
+
+header{
+    grid-area: h;
+    align-items: center;
+    background: #070707;
+    color: #BB0908;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Teko;
+    
+
+}
+
+
+
