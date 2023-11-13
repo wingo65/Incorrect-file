@@ -32,5 +32,71 @@ header{
 
 }
 
+#banner{
+    grid-area: b;
+    background-image: url(images/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 388px;
+    margin-right: 20px;
+    width: 1440px;
+    display: flex;
+}
 
+#leftmodule{
+    grid-area: l;
+    flex-direction: column;
+    display: flex;
+    margin-left: 20px;
+
+}
+
+#leftposter{
+    grid-area: l;
+    display: flex;
+}
+
+#leftposter p{
+    font-family: Poppins;
+    color: #FFFFFF;
+    width: 700px;
+    height: 481px;
+    top: 512px;
+    font-size: 18px;
+    display: flex;
+}
+
+h2{
+    font-family: RockSalt;
+    color: #FF1D29;
+    border-bottom: solid 4px #BB0908;
+    padding-bottom: 4px;
+    font-size: 30px;
+}
+
+#f13_iv_poster{
+    display: flex;
+    width: 310px;
+}
+
+#dvd{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 349px;
+    margin-bottom: 20px;
+}
+
+#cost2{
+    grid-area: left1;
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 191px;
+    height:157px;
+}
+
+#cost2 p :first-child{
+    
+}
 
