@@ -5,7 +5,8 @@
 
 html,body{
     box-sizing: border-box;
-    height: 100%;
+    height: 1080px;
+    width: 1920px;
 }
 
 main{
@@ -26,21 +27,14 @@ header{
     color: #BB0908;
     display: flex;
     justify-content: space-between;
-    width: 100%;
     font-family: Teko;
+    width: 100%;
     
 
 }
 
 #banner{
     grid-area: b;
-    background-image: url(images/banner.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 388px;
-    margin-right: 20px;
-    width: 1440px;
-    display: flex;
 }
 
 #leftmodule{
@@ -79,13 +73,7 @@ h2{
     width: 310px;
 }
 
-#dvd{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 349px;
-    margin-bottom: 20px;
-}
+
 
 #cost2{
     grid-area: left1;
@@ -94,7 +82,36 @@ h2{
     justify-content:space-between;
     width: 191px;
     height:157px;
+    font-family: Poppins;
 }
+
+
+#sideposter{
+    grid-area: z;
+    font-family: Roboto;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #393939;
+    text-align: center;
+    
+}
+
+#sign{
+    text-align: center;
+}
+
+#underwater{
+    text-align: center;
+}
+
+#paragraphs{
+    text-align: left;
+    width: 275px;
+}
+
+
+
+
 
 
 
