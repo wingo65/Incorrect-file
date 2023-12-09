@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Projects</title>
 </head>
@@ -31,7 +32,7 @@
             </div>
             <div class="container-fluid">
               <a class="navbar-brand">Portfolio</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarNav">
@@ -47,68 +48,40 @@
             </div>
           </nav>
 
-          <div class="cont">
-            <div class="page-head">
-              <h1>Featured Projects <span class="version">V0.0.1</span></h1>
-              <p class="lead"></p><a href="https://github.com/wingo65/js"class="btn btn-primary btn-lg">View on github</a></div>
-          
-            <div class="demo-gallery">
-              <ul id="lightgallery">
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/1-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/1-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/1.jpg 800" data-src="https://github.com/wingo65/js/tree/main/pong/se251pong_w3_start_files"
-                data-sub-html="<h4>Fading Light</h4><p>Classic view from Rigwood Jetty on Coniston Water an old archive shot similar to an old post but a little later on.</p>">
-                  <a href="https://github.com/wingo65/js/tree/main/pong/se251pong_w3_start_files" target="_blank">
-                    <img class="img-responsive" src="images/GitHub-Logo.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                    <div class="card-text">
-                      <p>Pong Game.</p>
-                  </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/2-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/2-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/2.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/2-1600.jpg"
-                data-sub-html="<h4>Bowness Bay</h4><p>A beautiful Sunrise this morning taken En-route to Keswick not one as planned but I'm extremely happy I was passing the right place at the right time....</p>">
-                  <a href="https://github.com/wingo65/se111_202320/tree/main/Master%20card">
-                    <img class="img-responsive" src="images/GitHub-Logo.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                    <div class="card-text">
-                      <p>Master Card</p>
-                  </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/13-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/13-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/13.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/13-1600.jpg"
-                data-sub-html="<h4>Sunset Serenity</h4><p>A gorgeous Sunset tonight captured at Coniston Water....</p>">
-                  <a href="">
-                    <img class="img-responsive" src="images/GitHub-Logo.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                    <div class="card-text">
-                      <p>Additional text goes here.</p>
-                  </div>
-                  </a>
-                </li>
-                <li data-responsive="https://sachinchoolur.github.io/lightgallery.js/static/img/4-375.jpg 375, https://sachinchoolur.github.io/lightgallery.js/static/img/4-480.jpg 480, https://sachinchoolur.github.io/lightgallery.js/static/img/4.jpg 800" data-src="https://sachinchoolur.github.io/lightgallery.js/static/img/4-1600.jpg"
-                data-sub-html="<h4>Coniston Calmness</h4><p>Beautiful morning</p>">
-                  <a href="">
-                    <img class="img-responsive" src="images/GitHub-Logo.png">
-                    <div class="demo-gallery-poster">
-                      <img src="https://sachinchoolur.github.io/lightgallery.js/static/img/zoom.png">
-                    </div>
-                    <div class="card-text">
-                      <p>Additional text goes here.</p>
-                  </div>
-                  </a>
-                </li>
-              </ul>
+          <div class="card mt-4">
+            <img src="images/2023-05-28 (1).png" class="card-img-top" alt="project">
+            <div class="card-body">
+              <h5 class="card-title">Movie Project</h5>
+              <p class="card-text">This project constituted a pivotal assignment during the second term of my pursuit of an associate's degree. The task at hand was the development of a sophisticated movie seating chart application, meticulously designed to simulate the experience of users engaged in the process of purchasing tickets for a cinematic experience.
+                The application seamlessly facilitated users in visualizing the seating chart, distinguishing between available and occupied seats, with marked indicators for the latter. Prospective customers were afforded the ability to seamlessly proceed with ticket acquisition. This involved specifying the quantity of tickets desired, selecting preferred seating arrangements, and receiving an instant computation of the total cost.
+                Notably, the application provided a comprehensive feature enabling users to review their entire transaction history. This encompassed a detailed breakdown of the total number of tickets purchased and the corresponding cumulative expenditure. The incorporation of such functionalities aimed to enhance user experience, providing a seamless and professional ticketing solution for cinema enthusiasts.
+              </p>
+              <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
             </div>
           </div>
 
+
+          <footer class="bg-body-tertiary text-center p-3">
+            <div class="container">
+                <h5>Contact Me</h5>
+                <a href="">
+                    <img src="images/Facebook_Logo_(2019).png.webp">
+                </a>
+                <a href="">
+                    <img src="images/instagram-icon-logo-free-png.webp">
+                </a>
+                <footer class="blockquote-footer">Figma Link <a href="https://github.com/wingo65/js" target="_blank" title="Figma">Click Here!</a</footer>
+                  <p>&copy; 2023 Nicholas Elkhaouli. All rights reserved.</p>
+            </div>
+        </footer>
+
+          
+
           
     </main>
-
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

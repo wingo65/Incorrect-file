@@ -18,12 +18,27 @@ body {
     font-size: 7rem;
     height: 100vh;
     position: relative;
+
+
+}
+a {
+  text-decoration: none;
+  color: inherit; 
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+footer {
+  margin-top: 20px; 
+  padding: 20px 0;  
 }
 h1.about {
-    font-size: 4rem; /* Set the font size to make it bigger */
-    color: #FFF; /* Set text color to white */
+    font-size: 4rem; 
+    color: #FFF; 
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    margin-bottom: 350px; /* Adjust the top margin as needed */
+    margin-bottom: 350px; 
     font-family: Anton;
 }
 .paragraph {
@@ -39,10 +54,17 @@ h1.about {
     margin-top: -200px;
     
 }
-img{
-    max-width: 400px; 
-    max-height: 300px;
-    margin-top: 100px;
+
+footer img {
+  width: 100px; 
+  height: auto; 
+  margin: 0 10px; 
+}
+.card-body img {
+  max-width: 200px; 
+  height: auto; 
+  display: block; 
+  margin: 0 auto; 
 }
 .main {
     display: flex;
@@ -50,6 +72,7 @@ img{
     align-items: center;
     justify-content: flex-start;
     height: 100vh;
+    flex: 1;
 }
 
 .text-container {
@@ -62,6 +85,25 @@ img{
 }
 .text-container > span:nth-child(8) {
     margin-right: 20px; 
+}
+.card-img-top {
+  max-width: 680px;
+  height: auto; 
+  margin: 0 auto;
+}
+.card-body {
+  text-align: center;
+}
+
+.card-title {
+  margin-top: 5px; 
+  font-size: 36px;
+  font-family: baloo;
+
+}
+.card-text{
+  font-family: Montserrat;
+  
 }
 span {
     margin: 1px;
