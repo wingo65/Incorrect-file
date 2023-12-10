@@ -96,6 +96,10 @@ footer img {
       transform: translateX(-50%);
   }
 }
+.card-header {
+  text-align: center;
+}
+
 .card-img-top {
   max-width: 680px;
   height: auto; 
